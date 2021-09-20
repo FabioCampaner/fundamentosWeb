@@ -1,3 +1,4 @@
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -35,6 +36,12 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.margin {
+    margin-left: 50px;
+}
+
+
 
 .container ul li{
     flex-direction: column;
