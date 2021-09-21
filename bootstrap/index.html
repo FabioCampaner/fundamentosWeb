@@ -9,20 +9,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <style>
-            .rede-social{
-                width: 50px;
-                height: 50px;
-            }
-        </style>
+    <style>
+        .rede-social {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
 
     <title>Introdução ao Bootstrap</title>
 </head>
 
 <body>
+
     <!--Menu-->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand text-light" href="#">Menu</a>
+        <a class="navbar-brand text-light " href="#">Menu</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
             aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -35,7 +36,13 @@
                             atual)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link text-light" href="contato.html">Contato <span class="sr-only"></span></a>
+                    <a class="nav-link text-light" href="#desenhos">Desenhos <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="#video">Vídeo<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="#contato">Contato <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
@@ -51,14 +58,11 @@
                     </div>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
-            </form>
         </div>
     </nav>
     <!--/Menu-->
     <br>
+
     <div class="container">
         <div class="row">
             <div class="col-sm-7">
@@ -87,7 +91,7 @@
             </div>
             <!--/Carrossel-->
             <div class="col-sm-5">
-                <h1>Desenhos</h1>
+                <h1>Destaques</h1>
                 <p style="text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam modi vel
                     ad, culpa recusandae reiciendis explicabo exercitationem consequatur blanditiis assumenda
                     praesentium ut! Soluta commodi exercitationem nesciunt officia cupiditate id asperiores impedit
@@ -100,6 +104,123 @@
             </div>
         </div>
     </div>
+    <br>
+    <hr>
+    <!--Card-->
+    <div class="container">
+        <h2 id="desenhos">Últimos Desenhos</h2>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="assets/img/aurora.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Aurora</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, tempore illo,
+                        alias assumenda veniam rerum porro nostrum explicabo voluptates quos excepturi tenetur illum
+                        accusantium, eius dolor quam necessitatibus autem deserunt!</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="assets/img/johnny cash.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Johnny Cash</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eum animi
+                        facilis ad distinctio mollitia optio unde repellendus vel sint totam harum incidunt est
+                        adipisci, voluptatibus nostrum ex provident? Velit.</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="assets/img/lagartixa.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Lagartixa</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, tempore
+                        aliquam! Molestias at dolor eius! Consequatur omnis nostrum nemo impedit velit rerum, similique
+                        quas praesentium perspiciatis quidem in dolorem quaerat!</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Card-->
+    <br>
+    <hr>
+    <!--Resposta Criativa-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mdAQiJMplUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="col-md-5">
+                <h2 id="video">Resposta Criativa</h2>
+
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime rerum saepe debitis, iure fugit
+                    eligendi eius hic tenetur similique libero, a illum magni, nesciunt minus nihil deserunt iusto in
+                    totam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime rerum saepe debitis, iure fugit
+                    eligendi eius hic tenetur similique libero, a illum magni, nesciunt minus nihil deserunt iusto in
+                    totam?</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <hr>
+    <!--Formulário-->
+    <div class="container">
+        <br>
+        <h2 id="contato">Fale Comigo!</h2>
+        <form>
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Apresente-se!" onkeyup="validaNome()">
+                <small id="txtNome" class="form-text text-muted"></small>
+            </div>
+            <div class="form-group">
+                <label for="email">Endereço de email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="txtEmail"
+                    placeholder="Seu email" onkeyup="validaEmail()">
+                <small id="txtEmail" class="form-text text-muted">Não se preocupe, seu email está seguro.</small>
+            </div>
+            
+            <div class="form-group">
+                <label for="assunto">Assunto</label>
+                <textarea class="form-control" id="assunto" rows="3" placeholder="Deixe seu comentário :)  Máximo de 100 caracteres" onkeyup="validaAssunto()"></textarea>
+                <small id="txtAssunto" class="form-text text-muted"></small>
+            </div>
+            <button type="submit" class="btn btn-primary" onclick="enviar()">Enviar</button>
+        </form>
+    </div>
+    <!--Formulário-->
+    <footer>
+        <hr>
+
+
+        <div class="row mb-3">
+            <div class="col-md-12 d-flex justify-content-center">
+
+                <a class="p-2" href="https://www.linkedin.com/in/fabiocsuzuki/" target="_blank">
+                    <img class="rede-social" src="assets/img/linkedin.png" alt="Ícone do LinkedIn">
+
+                </a>
+                <a class="p-2" href="https://github.com/FabioCampaner" target="_blank">
+                    <img class="rede-social" src="assets/img/github.png" alt="Ícone do GitHub">
+                </a>
+                <a class="p-2" href="https://www.instagram.com/fabiodepapel/" target="_blank">
+                    <img class="rede-social" src="assets/img/instagram.png" alt="Ícone do Instagram">
+                </a>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p id="direitos-reservados" class="text-center">Todos direitos reservados a Fábio Campaner Suzuki &copy;
+                </p>
+            </div>
+        </div>
+
+
+    </footer>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -111,34 +232,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+        <script src="assets/script/script.js"></script>
 </body>
-<footer>
-    <hr>
-
-
-    <div class="row mb-3">
-        <div class="col-md-12 d-flex justify-content-center">
-           
-                <a class="p-2" href="https://www.linkedin.com/in/fabiocsuzuki/" target="_blank">
-                    <img class="rede-social" src="assets/img/linkedin.png" alt="Ícone do LinkedIn">
-
-                </a>
-                <a class="p-2" href="https://github.com/FabioCampaner" target="_blank" >
-                    <img class="rede-social" src="assets/img/github.png" alt="Ícone do GitHub">
-                </a>
-                <a class="p-2" href="https://www.instagram.com/fabiodepapel/" target="_blank" >
-                    <img class="rede-social" src="assets/img/instagram.png" alt="Ícone do Instagram">
-                </a>
-            
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-    <p id="direitos-reservados" class="text-center">Todos direitos reservados a Fábio Campaner Suzuki &copy;</p>
-</div>
-</div>
-    
-
-</footer>
 
 </html>
