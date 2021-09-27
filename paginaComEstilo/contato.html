@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Fabio de Papel</title>
+</head>
+<body>
+    <header>
+        <div class="direita">
+            <ul id="menu">
+                
+                <li class="pd">
+                    <a href="index.html">HOME</a>
+                </li>
+                <li class="pd">
+                    <a href="contato.html">CONTATO</a>
+                </li>
+                
+            </ul>
+        </div>
+    </header>
+    <br>
+    <div class="container">
+            <div class="margin">
+                <form>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" onkeyup="validaNome()">
+                    <div id="txtNome"> </div>
+                    <br>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" onkeyup="validaEmail()">
+                    <div id="txtEmail"></div>
+                    <br>
+                    <label for="assunto">Assunto:</label><br>
+                    <textarea name="assunto" id="assunto" cols="30" rows="10" onkeyup="validaAssunto()"></textarea>
+                    <div id="txtAssunto"></div>
+                    <button onclick="enviar()">Enviar</button>
+                </form>
+            </div>
+            <div class="margin">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.012757321722!2d-46.55661058502342!3d-23.49604998471539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f9dfa74ea6d%3A0xd293f21466b98b77!2sRua%20Professor%20Jos%C3%A9%20Munhoz%2C%20338%20-%20Jardim%20Munhoz%2C%20Guarulhos%20-%20SP%2C%2007033-000!5e0!3m2!1spt-BR!2sbr!4v1632141583400!5m2!1spt-BR!2sbr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" id="mapa" onmousemove="mapZoom()" onmouseout="mapNormal()"></iframe>
+            </div>
+    </div>
+    <footer>
+        <hr> 
+        <div class="container">
+            <a class="links" href="https://www.linkedin.com/in/fabiocsuzuki/" target="_blank">
+                <img class="icone-footer pd" src="assets/img/linkedin.png" alt="Ícone do LinkedIn">
+            </a>
+            <a class="links" href="https://github.com/FabioCampaner" target="_blank">
+                <img class="icone-footer pd" src="assets/img/github.png" alt="Ícone do GitHub">
+            </a>
+            <a class="links" href="https://www.instagram.com/fabiodepapel/" target="_blank">
+                <img class="icone-footer pd" src="assets/img/instagram.png" alt="Ícone do Instagram">
+            </a>
+        </div>
+        <p id="direitos-reservados">Todos direitos reservados a Fábio Campaner Suzuki &copy;</p>
+          
+    </footer>
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
